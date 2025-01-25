@@ -70,8 +70,7 @@ Edit
 ![cron jobs set up for self updating](https://github.com/user-attachments/assets/7cd2a020-835b-4ad9-8f04-1b867a5554e1)
 
 ## Mobile Camera Roll upload
-Nextcloud Mobile Settings to upload camera roll
+Nextcloud Mobile Settings to upload camera roll & Camera Roll Uploading
 ![setting to upload camera roll](https://github.com/user-attachments/assets/fb150d82-f232-4282-bd1d-7d6f2ae1946a)
-Camera Roll Upload
 ![camera roll uploading](https://github.com/user-attachments/assets/b6759d11-84b0-420b-abe1-21e463f1e397)
 

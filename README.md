@@ -44,7 +44,7 @@ ssh -i aws_key.pem ubuntu@your-public-ip
 ![Nextcloud configuration file add your Cloudflare domain](https://github.com/user-attachments/assets/d3b4d3f9-7a4f-4b43-9abb-b7acacdb0569)
 ---
 
-## Interfaces**
+## Interfaces
    - AWS EC2 instance setup
      ![Aws EC2 Ubuntu  Instance Running ](https://github.com/user-attachments/assets/f7394666-981a-4259-b2e5-911809310849)
    - Cloudflare DNS settings (`cloudflare_dns_config.txt`)

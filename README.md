@@ -1,4 +1,4 @@
-# nextcloud-aws-deployment
+# NextCloud AWS Deployment
 AWS Ubuntu server with nextcloud running with accessible through a cloudflare tunnel.
 ## Overview
 This project documents the process of deploying Nextcloud on an AWS EC2 instance running Ubuntu 22.04 LTS, with secure remote access via Cloudflare.

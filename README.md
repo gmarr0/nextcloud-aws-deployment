@@ -40,28 +40,23 @@ ssh -i aws_key.pem ubuntu@your-public-ip
 - Create a `config/` directory to store important files such as:
   - Apache configuration (`nextcloud.conf`)
 ![Apache config file](https://github.com/user-attachments/assets/882b3221-a954-41ad-86b8-bbf194a2b274)
-  - MySQL database setup (`db_config.sql`)
-  - Cloudflare DNS settings (`cloudflare_dns_config.txt`)
-![cloudflare DNS settings](https://github.com/user-attachments/assets/974dd766-0b2f-4493-8ba2-83e71e897931)
   - Nextcloud Configuration File
 ![Nextcloud configuration file add your Cloudflare domain](https://github.com/user-attachments/assets/d3b4d3f9-7a4f-4b43-9abb-b7acacdb0569)
 ---
 
-## Step 5: Add Screenshots**
-1. Take screenshots of:
+## Interfaces**
    - AWS EC2 instance setup
      ![Aws EC2 Ubuntu  Instance Running ](https://github.com/user-attachments/assets/f7394666-981a-4259-b2e5-911809310849)
-   - Cloudflare DNS settings
+   - Cloudflare DNS settings (`cloudflare_dns_config.txt`)
+     ![cloudflare DNS settings](https://github.com/user-attachments/assets/974dd766-0b2f-4493-8ba2-83e71e897931)
    - Nextcloud web interface
 ![nextcloud darthserverflare com working !](https://github.com/user-attachments/assets/3d900eff-9ab8-4a9c-bebd-c5b9651911fe)
-2. Save them in a `screenshots/` directory in your project.
 
-
-## Step 6: Add Cron Job Instructions**
+## Step 5: Add Cron Job Instructions**
 Create a `cron-jobs.md` file to document the background job setup:
 
 
-# Cron Jobs Setup for Nextcloud
+## Cron Jobs Setup for Nextcloud
 
 To ensure smooth operation of Nextcloud:
 
@@ -75,4 +70,4 @@ Edit
 */15 * * * * php -f /var/www/nextcloud/cron.php
 ![cron jobs set up for self updating](https://github.com/user-attachments/assets/7cd2a020-835b-4ad9-8f04-1b867a5554e1)
 
-![Aws EC2 Ubuntu  Instance Running ](https://github.com/user-attachments/assets/f7394666-981a-4259-b2e5-911809310849)
+

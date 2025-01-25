@@ -52,7 +52,7 @@ ssh -i aws_key.pem ubuntu@your-public-ip
    - Nextcloud web interface
 ![nextcloud darthserverflare com working !](https://github.com/user-attachments/assets/3d900eff-9ab8-4a9c-bebd-c5b9651911fe)
 
-## Step 5: Add Cron Job Instructions
+## (Bonus) Step 5: Add Cron Job Instructions
 Create a `cron-jobs.md` file to document the background job setup:
 
 

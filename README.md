@@ -71,11 +71,3 @@ Copy
 Edit
 */15 * * * * php -f /var/www/nextcloud/cron.php
 
----
-
-### **Step 7: Commit and Push Your Changes**
-1. Add all your files to GitHub:
-   ```powershell
-   git add .
-   git commit -m "Initial documentation for Nextcloud AWS deployment"
-   git push origin main

@@ -30,7 +30,7 @@ This project documents the process of deploying Nextcloud on an AWS EC2 instance
 4. Attach key pair and launch the instance.
 
 ## Step 2: SSH into the Instance
-```bash
+
 ssh -i aws_key.pem ubuntu@your-public-ip
 
 ## Step 3: Install LAMP Stack
@@ -50,22 +50,21 @@ ssh -i aws_key.pem ubuntu@your-public-ip
 ## Step 5: Add Screenshots**
 1. Take screenshots of:
    - AWS EC2 instance setup
+     ![Aws EC2 Ubuntu  Instance Running ](https://github.com/user-attachments/assets/f7394666-981a-4259-b2e5-911809310849)
    - Cloudflare DNS settings
    - Nextcloud web interface
 ![nextcloud darthserverflare com working !](https://github.com/user-attachments/assets/3d900eff-9ab8-4a9c-bebd-c5b9651911fe)
 2. Save them in a `screenshots/` directory in your project.
 
----
 
 ## Step 6: Add Cron Job Instructions**
 Create a `cron-jobs.md` file to document the background job setup:
 
-```markdown
+
 # Cron Jobs Setup for Nextcloud
 
 To ensure smooth operation of Nextcloud:
 
-```bash
 sudo crontab -u www-data -e
 
 Add the following line (without #):
@@ -75,3 +74,5 @@ Copy
 Edit
 */15 * * * * php -f /var/www/nextcloud/cron.php
 ![cron jobs set up for self updating](https://github.com/user-attachments/assets/7cd2a020-835b-4ad9-8f04-1b867a5554e1)
+
+![Aws EC2 Ubuntu  Instance Running ](https://github.com/user-attachments/assets/f7394666-981a-4259-b2e5-911809310849)

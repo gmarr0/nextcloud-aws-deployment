@@ -36,7 +36,7 @@ ssh -i aws_key.pem ubuntu@your-public-ip
 ## Step 3: Install LAMP Stack
 - sudo apt update && sudo apt install apache2 mysql-server php libapache2-mod-php -y
 
-### Step 4: Add Configuration Files**
+### Step 4: Configuration Files
 - Create a `config/` directory to store important files such as:
   - Apache configuration (`nextcloud.conf`)
 ![Apache config file](https://github.com/user-attachments/assets/882b3221-a954-41ad-86b8-bbf194a2b274)
@@ -52,7 +52,7 @@ ssh -i aws_key.pem ubuntu@your-public-ip
    - Nextcloud web interface
 ![nextcloud darthserverflare com working !](https://github.com/user-attachments/assets/3d900eff-9ab8-4a9c-bebd-c5b9651911fe)
 
-## Step 5: Add Cron Job Instructions**
+## Step 5: Add Cron Job Instructions
 Create a `cron-jobs.md` file to document the background job setup:
 
 
